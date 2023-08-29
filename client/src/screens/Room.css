@@ -1,0 +1,100 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/8f/14/57/8f14578ef69a4c53352955d1e072eda6.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  /* background-color: red; */
+  width: 60%;
+  align-items: center;
+  top: 20px;
+  height: 60vh;
+}
+
+.heading {
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  padding: 0px 20px;
+}
+
+.heading h1 {
+  padding-top: 2px;
+  padding-bottom: 9px;
+}
+
+.sub-head {
+  position: absolute;
+  background-color: #5be7a9;
+  border: 2px solid black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  top: 70px;
+}
+
+.sub-head h4 {
+  padding: 5px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 120px;
+  width: 100%;
+}
+
+.btn1{
+  width: 20%;
+  padding: 4px 40px;
+  color: white;
+  background-color: #3F50B6;
+  border: none;
+  border-radius: 3px;
+  cursor:  pointer;
+}
+
+.stream {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  position: absolute;
+  top: 170px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+.mystream {
+  /* display: flex;
+  flex-direction: column; */
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.streamplayer, .remoteplayer{
+  margin-top: 10px;
+}
+
+.remotestream{
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
